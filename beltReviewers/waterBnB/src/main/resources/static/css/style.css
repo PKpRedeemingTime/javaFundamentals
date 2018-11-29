@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+
+.wrapper {
+	padding-top: 50px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+thead > tr {
+	background-color: #808080;	
+}
+
+tr {
+	text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+	background-color: #DCDCDC;
+}
+
+.loginReg {
+	display: flex;
+}
+
+.login {
+	display: inline-block;
+	height: 125px;
+	margin-left: 50px;
+}
+
+.register {
+	display: inline-block;
+}
+
+.error {
+	color: red
+}
+
+.newPool {
+	width: 40%;
+	margin-top: 25px;
+}
+
+.floatRight {
+	float: right;
+}
+
+.createPoolSize {
+	float: right;
+	margin-top: 12px;
+}
+
+.poolEdit {
+	display: flex;
+}
+
+.poolEditLeft {
+	display: inline-block;
+	width: 45%;
+}
+
+.poolEditRight {
+	display: inline-block;
+	width: 45%;
+	margin-left: 25px;
+}
+
+.showPool {
+	display: flex;
+}
+
+.showPoolLeft {
+	display: inline-block;
+	width: 45%;
+}
+
+.showPoolRight {
+	display: inline-block;
+	width: 45%;
+	margin-left: 25px;
+}
+
+.updatePoolDescription {
+	height: auto;
+	overflow-wrap: break-word;
+	float: right;
+}
+
+.updatePoolButton {
+	margin-top: 15px;
+}
+
+.updatePoolCost {
+	width: 50px;
+	float: right;
+}
+
+.reviews {
+	margin-top: 30px;
+	width: 55%;
+	overflow-wrap: break-word;
+}

@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+.wrapper {
+	padding-top: 50px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+thead > tr {
+	background-color: #808080;	
+}
+
+tr {
+	text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+	background-color: #DCDCDC;
+}
+
+.loginReg {
+	display: flex;
+}
+
+.login {
+	display: inline-block;
+	height: 125px;
+	margin-left: 50px;
+}
+
+.register {
+	display: inline-block;
+}
+
+.error {
+	color: red
+}
+
+.main {
+	display: flex;
+}
+
+.mainRight {
+	width: 45%;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.mainLeft {
+	width: 45%;
+	display: inline-block;
+}
+
+.addComment {
+	width: 100%;
+}
+
+.messages {
+	border: 2px solid black;
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+    padding: 0 20px;
+    overflow-wrap: break-word;
+}
+
+.commentInput {
+	width: 100%;
+	height: 75px;
+}
+
+.floatRight {
+	float: right;
+}
+
+.newEvent {
+	width: 45%;
+}
+
+.locationCity {
+	margin-left: 45px;
+}
+
+.editEvent {
+	width: 45%;
+}
